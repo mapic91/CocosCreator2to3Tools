@@ -3,7 +3,7 @@
 /**
  * CryptoJS core components.
  */
-export var CryptoJS = CryptoJS || (function (Math, undefined) {
+export var CryptoJS =  (function (Math, undefined) {
 
     var crypto;
 

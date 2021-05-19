@@ -1,6 +1,7 @@
 /**
  * Cipher core components.
  */
+ import { CryptoJS } from "./core";
 export let cipher_core = CryptoJS.lib.Cipher || (function (undefined) {
     // Shortcuts
     var C = CryptoJS;
